@@ -127,7 +127,7 @@ locals {
     stage       = local.stage
     # For AWS we need `Name` to be disambiguated since it has a special meaning
     name       = local.id
-    attributes = local.id_context.attributes
+    # attributes = local.id_context.attributes
   }
 
   generated_tags = {
